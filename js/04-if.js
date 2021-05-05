@@ -57,7 +57,25 @@ if (akys ==='melynos') {
     console.log('Neatpazynta akiu spalva');
 }
 
- 
+
+
+
+const arLija = false
+const parosMetas = 'vakaras' ;
+
+               if (parosMetas === 'rytas') {
+    console.log('dabar yra rytas');
+}      else  { if (parosMetas === 'diena') { 
+               if (arLija === true) {
+                console.log('dabar yra diena ir lija');
+               }  else  {
+                console.log('dabar yra dina bet ne lija');
+       }
+}      else  { 
+                console.log('neatpazintas paros metas');
+   }
+
+}
 
 
 
