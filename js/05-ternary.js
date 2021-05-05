@@ -15,8 +15,8 @@ a > b ?  console.log('taip') :  console.log('ne');
 const amzius = 14;
 const cenzas = 18;
 
-const atIleisti = amzius >= cenzas ?  true : false ;
+const arIleisti = amzius >= cenzas ?  true : false ;
 console.log('Ar ileisti:', arIleisti);
 
-const arVyresnis = amzius >= cenzas ? ' viresnis ' : ' nwviresnis';
-console.log('ar viresnis' ,arVyresnis);
+const arVyresnis = amzius >= cenzas ? ' viresnis ' : ' neviresnis';
+console.log('ar viresnis :' ,arVyresnis);
