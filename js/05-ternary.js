@@ -18,4 +18,5 @@ const cenzas = 18;
 const atIleisti = amzius >= cenzas ?  true : false ;
 console.log('Ar ileisti:', arIleisti);
 
-
+const arVyresnis = amzius >= cenzas ? ' viresnis ' : ' nwviresnis';
+console.log('ar viresnis' ,arVyresnis);
