@@ -13,11 +13,11 @@ for (let i = 0; i < 3; i++) {
     
 }
 // ------------------------------------------
-const marks = [1,2,5,10,7,8,6,3,4,8,10,9]
+const marks = [1,2,5,10]
 const count = marks.length
 let sum = 0;
-for (let i = 0; i < 11; i++) {
-    sum  += marks[i];
+for (let i = 0; i <= count - 1; i = i + 1) {
+    sum  = sum + marks[i];
     
 }
 const average = sum / count ;

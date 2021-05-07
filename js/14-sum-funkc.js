@@ -27,3 +27,6 @@ function labas(vardas) {
 console.log(labas('IVANAI'));
 
 
+function digital(params) {
+    
+}
