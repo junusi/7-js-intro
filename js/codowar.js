@@ -20,12 +20,14 @@ XO("zzoo") => false
 function XO(str)
 {
 if    ( a % 2 === 0 )
-{ console.log('taip tekstas simetrinis') ;
+{ console.log('Taip tekstas simetrinis') ;
     for (let i = 0; i < str.length / 2  ;  i = i + 1)
 {
-    str [i] === str [(str.length / 2) - 1] ? console.log('Pirmos teksto dales  raide:',str [i]) : console.log ('skirtinga raide:',str[i]);}
+    str [i] === str [(str.length / 2) - 1] ? console.log(
+    'Pirmos teksto dales  raide:',str [i]) : console.log ('skirtinga raide:',str[i]);}
   for (let i = str.length /2 ;i < str.length ;i = i + 1)
-{  str [i] === str [str.length -1] ? console.log('Antros teksto dales  raide:',str [i]) : console.log ('skirtinga raide:',str[i]);
+{  str [i] === str [str.length -1] ? console.log(
+    'Antros teksto dales  raide:',str [i]) : console.log ('skirtinga raide:',str[i]);
 }
 } else
 {console.log('ne tekstas ne simetrinis');  
@@ -34,8 +36,8 @@ if    ( a % 2 === 0 )
 }
 
 let r = '';
-const str =("ppppoooo") ;
+const str =("kkkuuu") ;
 const a = str.length;
 console.log(XO(str));
-console.log('tecsto turinis:',str);
-console.log(`teksto ilgis ${str.length} raides`);
+console.log(`Tecsto turinis :  "${str}"`);
+console.log(`Teksto ilgis   :   ${str.length} zenklai`)
