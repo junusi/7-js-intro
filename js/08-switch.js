@@ -6,9 +6,9 @@ Neturi :>, < ,>=, <=
 
 
 */
-const day = 8;
+const a = 3;
 
-switch (day) {
+switch (a) {
     case 1 :
 console.log('Pirmadenis');
     break;

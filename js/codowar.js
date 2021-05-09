@@ -24,11 +24,11 @@ if    ( a % 2 === 0 )
     for (let i = 0; i < str.length / 2  ;  i = i + 1)
 {
     str [i] === str [(str.length / 2) - 1] ? console.log(
-    'Pirmos teksto dales  raide:',str [i]) : console.log ('skirtinga raide:',str[i]);}
+    'Pirmos teksto dales  raide:',str [i]) : console.log ('Pirma teksto dalis,  raide:',str[i],'Pirmos teksto dales raides skirtingos');}
   for (let i = str.length /2 ;i < str.length ;i = i + 1)
 {  str [i] === str [str.length -1] ? console.log(
-    'Antros teksto dales  raide:',str [i]) : console.log ('skirtinga raide:',str[i]);
-}
+    'Antros teksto dales  raide:',str [i]) : console.log ('Antra teksto dalis, raide:',str[i],'Antros teksto dales raides skirtingos');}
+
 } else
 {console.log('ne tekstas ne simetrinis');  
 }
@@ -36,7 +36,9 @@ if    ( a % 2 === 0 )
 }
 
 let r = '';
-const str =("kkkuuu") ;
+//  TEKSTAS :
+const str =("Manooo") ;
+
 const a = str.length;
 console.log(XO(str));
 console.log(`Tecsto turinis :  "${str}"`);
