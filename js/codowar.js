@@ -1,21 +1,11 @@
-/*7 kyu
-Exes and Ohs
-87619688% of 12,74836,808 of 107,329joh_pot1 Issue Reported
-JavaScript
-Node v10.x
-VIM
-EMACS
-Instructions
-Output
+/*Patikrinkite, ar eilutėje yra vienodas skaičius „x“ ir „o“.
+  Metodas turi pateikti loginę reikšmę ir neskirti didžiųjų ir mažųjų raidžių.
+   Stygoje gali būti bet kokia simbolis. 
+---------------------------------------------------------------------------------
 Check to see if a string has the same amount of 'x's and 'o's.
  The method must return a boolean and be case insensitive.
   The string can contain any char.
-Examples input/output:
-XO("ooxx") => true
-XO("xooxx") => false
-XO("ooxXm") => true
-XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
-XO("zzoo") => false
+
 */
 function XO(str)
 {
@@ -37,9 +27,19 @@ if    ( a % 2 === 0 )
 
 let r = '';
 //  TEKSTAS :
-const str =("Manooo") ;
+const str = 'kjh;'
 
 const a = str.length;
 console.log(XO(str));
 console.log(`Tecsto turinis :  "${str}"`);
-console.log(`Teksto ilgis   :   ${str.length} zenklai`)
+console.log(`Teksto ilgis   :   ${str.length} zenklai`);
+
+
+
+
+console.log(XO("ooxx"), '=>',true);
+console.log(XO("ooxx"),'=>',true);
+console.log(XO("xooxx"),'=>', false);
+console.log(XO("ooxXm") ,'=>',true);
+console.log(XO("zpzpzpp"),'=>', true) ;
+console.log(XO("zzoo") ,'=>',false);
