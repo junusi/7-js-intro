@@ -1,28 +1,26 @@
-function differenceInAges(array){
-  let c = array[0];
-  for(let i = 0;i < array.length;i = i + 1) {
-    
-    if(c > array[i]){
-      true
-    }else{c = array[i]}
-  }
-
-  let b = array[0];
+function abbrevName(name){
   
-  for(let i = 0;i < array.length;i = i + 1) {
+    let sum = '   ';
+  const a1 = name.length;
     
-    if(b> array[i]){b = array [i];
-     
-    }else{false}
-  }
-
- let a = c - b;
- return array = [b,c,a];
+   
+    for(let i =0;i < a1;i = i + 1){
+      if(name[i] === ' '){
+        sum =  name[0] + '.' + name [i + 1];
+       }
+      }
+  
+    return sum ;
 }
+  console.log(abbrevName("Sam Harris"), "S.H");
+  console.log(abbrevName("Patrick Feenan"), "P.F");
+  console.log(abbrevName("Evan Cole"), "E.C");
+    console.log(abbrevName("P Favuzzi"), "P.F");
+   console.log(abbrevName("David Mendieta"), "D.M");
 
 
-  console.log(differenceInAges([82, 15, 6, 38, 35]), [6, 82, 76]);
-  console.log(differenceInAges([57, 99, 14, 32]), [14, 99, 85]);
+
+
 
 
 
