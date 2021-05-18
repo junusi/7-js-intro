@@ -16,7 +16,11 @@ console.log(testEven(2), true, "testEven for 2");
 console.log(testEven(-4), true, "testEven for 2");
 
 
-
+if (condition) {
+  
+} else {
+  
+}
 
 
 
